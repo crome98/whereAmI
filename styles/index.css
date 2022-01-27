@@ -1,3 +1,51 @@
-.hide {
+/* .hide {
   visibility: hidden;
+} */
+
+.container {
+  width: 200px;
+  height: 300px;
+  margin-top: 10px;
+  background-color: white;
+
+  text-align: center;
+  position: relative;
 }
+
+.country-info-container {
+  width: 200px;
+  height: 150px;
+  background-color: #F9EFE1;
+  position: absolute;
+  top: 50%;
+  border-radius: 0 0 5% 5%;
+}
+
+.country-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 5% 5% 0 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.country-info-details {
+  width: 70%;
+  height: 20px;
+  margin: 5px 0;
+
+  position: relative;
+  left: 10%;
+
+  text-align: left;
+}
+
+/* p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+} */
